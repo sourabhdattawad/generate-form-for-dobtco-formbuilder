@@ -2,19 +2,18 @@
 
 This is returns HTML output for JSON provided by dobtco [formbuilder](https://github.com/dobtco/formbuilder).
 ##
-currently supports  [Bootstrap](https://getbootstrap.com/).
+This is a simple HTML form builder.You can optimize it according to the requirement.
 
 ## Usage
 
 ```
 <script src="generator.js"></script>
 ```
+After ```on``` pass ```payload``` as argument to ```generateUI```
 ```
-builder.on('save', function(payload){
-    var form =  dynamicUIGenerator(payload);
+    var form =  generateUI(payload);
     console.log(form);
     // use form wherever needed
-});
 ```
 
 
