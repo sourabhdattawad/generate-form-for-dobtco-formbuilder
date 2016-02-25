@@ -11,9 +11,9 @@ This is a simple HTML form builder.You can optimize it according to the requirem
 ```
 After ```on``` pass ```payload``` as argument to ```generateUI```
 ```
-    var form =  generateUI(payload);
-    console.log(form);
-    // use form wherever needed
+var form =  generateUI(payload);
+console.log(form);
+// use form wherever needed
 ```
 
 
